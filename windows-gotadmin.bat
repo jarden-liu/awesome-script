@@ -26,4 +26,4 @@ if '%errorlevel%' NEQ '0' (
   rem 移除getadmin.vbs
   if exist "%temp\getadmin.vbs%" ( del "%temp\getadmin.vbs%" )
   rem 已获取到管理员权限，可以在下面添加管理员身份运行的内容
-  echo 123
+  echo You have administrator privileges
